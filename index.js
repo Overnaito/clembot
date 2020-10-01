@@ -14,6 +14,7 @@ const {readdirSync, statSync} = require('fs')
 const config = require('./config.js');
 //Eu crio uma variável para o prefix usando config.prefix
 const prefix = config.prefix;
+console.log(config)
 //Eu crio uma propiedade no cliente para o prefix e poder acessar de qualquer lugar no código, especialmente os comandos
 clem.prefix = prefix;
 //outra propiedade do cliente de uma cor para embeds
@@ -39,7 +40,7 @@ for(const pasta of lerDiretorios()){
   //outro for para ter os arquivos diretamente
   for(const file of folderFiles){
     //e fazemos um "push" de um array que inclui as subpastas e os arquivos
-    commandFiles.push([folder, file])
+    commandFiles.push([pasta, file])
   }
 }
 //Eu faço um for de commandFiles que já inclui os comandos das subpastas
