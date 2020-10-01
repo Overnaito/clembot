@@ -1,0 +1,26 @@
+{
+  "name": "clembot",
+  "version": "0.0.1",
+  "description": "An Utility Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo Hello World"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Overnaito/clembot.git"
+  },
+  "keywords": [
+    "MIT"
+  ],
+  "author": "overnait",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Overnaito/clembot/issues"
+  },
+  "homepage": "https://github.com/Overnaito/clembot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "express": "^4.17.1"
+  }
+}
