@@ -66,4 +66,4 @@ for(const file of readdirSync('./eventos/')){
 }
 
 //E o login do Bot
-clem.login(process.env.DISCORD_TOKEN)
+clem.login(process.env.TOKEN)
