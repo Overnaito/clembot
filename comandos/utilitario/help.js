@@ -9,7 +9,11 @@ module.exports = {
     .setAuthor('Olá!', message.author.displayAvatarURL())
     .setTitle('Eu sou Clembot.')
     .setDescription('E aqui estão meus comandos')
+<<<<<<< HEAD
     .addField('Utilitario [6]', '```ping help calcular avatar userinfo serverinfo```')
+=======
+    .addField('Utilitario [5]', '```ping help calcular avatar userinfo```')
+>>>>>>> origin/master
     .addField('Links', '[Convite](https://discord.com/oauth2/authorize?client_id=760580230875316224&scope=bot&permissions=8)\n[Github](https://github.com/Overnaito/clembot)')
     .setFooter(clem.user.tag, clem.user.displayAvatarURL())
     message.channel.send(embed)
