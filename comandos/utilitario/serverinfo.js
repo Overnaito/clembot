@@ -20,11 +20,12 @@ module.exports = {
     .setTitle('Informação do servidor')
     .addField('Nome', message.guild.name)
     .addField('ID', message.guild.id)
-    .addField('proprietário do servidor', message.guild.owner.user.tag)
+    .addField('Proprietário do servidor', message.guild.owner.user.tag)
     .addField('Data de criação do Servidor', data.text)
     .addField('Membros do Servidor', `${message.guild.memberCount}\nHumanos: ${humanos}\nBots: ${bots}`)
     .addField('Canais', `Número de Canais: ${canais}\nCategorias: ${categorias}\nCanais de texto: ${canais_de_texto}\nCanais de Voz: ${canais_de_voz}`)
     .addField('Cargos', message.guild.roles.cache.size)
+    .setThumbnail(message.guild.iconURL())
     message.channel.send(embed)
   }
 }
