@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Overnaito/clembot#readme",
   "dependencies": {
+    "@vitalets/google-translate-api": "^4.0.0",
     "discord.js": "^12.3.1",
     "express": "^4.17.1",
     "math-expression-evaluator": "^1.2.22"
